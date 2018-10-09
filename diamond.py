@@ -21,20 +21,3 @@ while count > 1:
     left = left + 1
     right = right - 1
     count = count - 1
-    
-    
-"""
-while count < side:
-    x = side - count
-    print "side: ", side, " count: ", count
-    str = x * " " + (count * "*")
-    #print (x * " ", (count * "*") * 2)
-    print (str)
-    count += 2
-while count >= 0:
-    str = bl * " " + (count * "*")
-    print (str)
-    #print (bl * " ", (count * "*") * 2)
-    count -= 1
-    bl += 1
-"""
